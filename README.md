@@ -22,6 +22,23 @@ Each sign must
 Help screen
 - Define how the application works
 
-## Western Zodiac System
+### Western Zodiac System
 
 [Information is in this sheet](https://docs.google.com/spreadsheets/d/1sqdYAm5G_DdHFXcCfD52936qJVeN6RO0uurj8_w1ASs/edit?usp=sharing)
+
+## Theme
+
+Heavy rail rapid transit systems in the United States and Canada
+
+- NYC Subway
+- Montreal Metro
+- Toronto Subway
+- Vancouver SkyTrain
+- Washington Metro
+- Chicago "L"
+- SEPTA Metro
+- MBTA "T"
+- MARTA
+- PATH
+- BART
+- LA Metro Rail
