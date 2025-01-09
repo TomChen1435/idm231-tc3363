@@ -30,15 +30,15 @@ Help screen
 
 Heavy rail rapid transit systems in the United States and Canada
 
-- NYC Subway
-- Montreal Metro
-- Toronto Subway
-- Vancouver SkyTrain
-- Washington Metro
-- Chicago "L"
-- SEPTA Metro
-- MBTA "T"
-- MARTA
-- PATH
-- BART
-- LA Metro Rail
+- 1 New York City Subway
+- 2 Montreal Metro
+- 3 Toronto Subway
+- 4 Vancouver SkyTrain
+- 5 Washington Metro
+- 6 Chicago "L"
+- 7 SEPTA Metro
+- 8 Boston "T"
+- 9 MARTA
+- A PATH
+- B BART
+- C Los Angeles Metro
