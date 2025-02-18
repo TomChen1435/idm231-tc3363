@@ -59,17 +59,39 @@ As of now, I am sure you get the idea behind this project: the United States sto
 
 - 2nd Avenue Subway (New York City)
 - QueensLink (New York City)
+- PATH Newark Airport Extension (Newark, NJ)
 - Tri-boro Express (New York City)
 - Roosevelt Boulevard Subway (Philadelphia)
-- Broad Street Line Extension to Navy Yard (Philadelphia)
-- Red Line Extension to 130th Street (Chicago)
-- BART Extension to the Silicon Valley (Bay Area)
-- D Line Extension to Westwood (Los Angeles)
+- Broad Street Line Navy Yard Extension (Philadelphia)
+- Red Line 130th Street Extension (Chicago)
+- BART Silicon Valley Extension (Bay Area)
+- D Line Westside Extension (Los Angeles)
 - So much more potential and possibilities
 
 Vivan niaj transitoj!
 
 Source of Images: Wikipedia
+
+#### Links for Writing
+
+- 2nd Avenue Subway (New York City)
+    - https://www.mta.info/project/second-avenue-subway-phase-2
+- QueensLink (New York City)
+    - https://thequeenslink.org
+- PATH Newark Airport Extension (Newark, NJ)
+    - https://www.panynj.gov/path/en/modernizing-path/extension-project.html
+- Tri-boro Express (New York City)
+    - https://rpa.org/work/campaigns/triboro
+- Roosevelt Boulevard Subway (Philadelphia)
+    - https://blvdsubway.com
+- Broad Street Line Navy Yard Extension (Philadelphia)
+    - https://www.inquirer.com/transportation/broad-street-line-extension-rail-navy-yard-septa-subway-20190201.html#:~:text=SEPTA%20pitched%20three%20proposals%20on,%241.5%20billion%20and%20%241.6%20billion.
+- Red Line 130th Street Extension (Chicago)
+    - https://www.transitchicago.com/rle
+- BART Silicon Valley Extension (Bay Area)
+    - https://www.vta.org/projects/bart-sv/phase-ii
+- D Line Westside Extension (Los Angeles)
+    - https://www.metro.net/projects/westside
 
 ### Operators
 
