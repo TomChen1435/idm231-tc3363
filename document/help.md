@@ -1,4 +1,16 @@
-# Why do I Make This? 
+## Site instructions
+
+- Enter your date of birth or click one of the pictures to find the public transit system you should discover next
+- Click the operator's logo or the button to visit their website
+- Click the location to find more about what the cities have to offer
+- Click "Close" to return to the homepage
+
+## Sources of Information
+
+- Source of all images: Wikipedia
+- Source of audio: 
+
+## Why do I Make This? 
 
 Heavy-rail rapid transit has been the most efficient way to transport a city's population since its creation. It is the perfect balance for passenger railways, combining the best of two worlds with the capacity of inter-urban railways and accessibility of urban trolleys.
 
@@ -22,3 +34,17 @@ As of now, I am sure you get the idea behind this project: the United States sto
 - So much more potential and possibilities
 
 Vivan niaj transitoj!
+
+## Contact information
+
+Tom Chen [(He/Him/His)](https://pronouns.org)
+BS User Experience and Interaction Design in progress [(UXID)](https://drexel.edu/westphal/academics/undergraduate/user-experience/)
+Antoinette Westphal College of Media Arts and Design [(CoMAD)](https://drexel.edu/westphal)
+[Drexel University](https://drexel.edu)
+[Philadelphia](https://www.visitphilly.com), [Pennsylvania](https://www.visitpa.com), [United States](https://www.visittheusa.com)
+
+- [Email](tomchen0714@icloud.com)
+- [Discord](https://discordapp.com/users/tomchen1581)
+- [Bluesky](https://bsky.app/profile/tomchen1581.bsky.social)
+- [Flickr](https://www.flickr.com/photos/tomchen1581)
+- [GitHub](https://github.com/TomChen1435)

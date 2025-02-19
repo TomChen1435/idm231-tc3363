@@ -1,4 +1,4 @@
-# Flowchart
+# Structure and Flow
 
 ## Header
 
@@ -35,18 +35,14 @@
 - "Close" button
     - Click to return to the home div
 - Site instructions
-    - Enter your date of birth or click one of the pictures to find the public transit system you should discover next
-    - Click the operator's logo or the button to visit their website
-    - Click the location to find more about what the cities have to offer
-    - Click "Close" to return to the homepage
-    - Source of Images: Wikipedia
+- Sources of information
 - Why am I making this?
 - Contact information
-    - Tom Chen, tomchen0714@icloud.com
-    - Discord
-    - Bluesky
-    - Flickr
-    - GitHub
+    - [Tom Chen](tomchen0714@icloud.com)
+    - [Discord](https://discordapp.com/users/tomchen1581)
+    - [Bluesky](https://bsky.app/profile/tomchen1581.bsky.social)
+    - [Flickr](https://www.flickr.com/photos/tomchen1581)
+    - [GitHub](https://github.com/TomChen1435)
 
 ## Content Display
 
