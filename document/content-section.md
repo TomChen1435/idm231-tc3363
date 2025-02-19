@@ -76,6 +76,8 @@ Noveber 22nd - December 21st
 
 The Metro to Become the Best Regional in the U.S.
 
+
+
 Kudos to Reece for inspiration [How to Fix Atlanta's Broken Rail System](https://www.youtube.com/watch?v=DLRmo5ExoFY)
 
 ## Miami Metrorail
@@ -84,7 +86,9 @@ Capicorn
 
 January 1st - 19th and December 22nd - 31st
 
-Thoughts About Limited Services
+Transfer or Interline?
+
+Like many metro systems in the U.S., Miami Metro advertises its services as if they were separate lines. Metrorail's system is a singular line with a one-stop branch. Usually, all trains interline to the south of Earlington Heights before the Orange Line branches off. On weekends, the Orange Line is replaced with a shuttle between the airport and the main line. The weekday strategy is common in the U.S. but not so much anywhere else, as most operators eventually realize how many disruptions can the interlining issues cause. Despite that, in this ever-ongoing debate of transfer vs. interline, the latter will always have some dedicated defenders for the benefits of more destinations with a single-seat ride.
 
 ## Los Angeles Metro Rail
 
