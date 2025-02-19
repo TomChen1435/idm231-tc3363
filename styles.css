@@ -1,0 +1,125 @@
+:root {
+    --font: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+    --black: #000;
+    --white: #fff;
+    --red: rgb(255,59,48);
+    --orange: rgb(255,149,0);
+    --yellow: rgb(255,204,0);
+    --green: rgb(40,205,65);
+    --blue: rgb(0,122,255);
+    --indigo: rgb(88,86,214);
+    --purple: rgb(175,82,222);
+    --pink: rgb(255,45,85);
+
+    --radius-small: 0.75rem;
+    --radius-large: 1.5rem;
+    --button-height: 2.8125rem;
+}
+
+/* 
+    Weight Name
+    100 = Thin/Hairline; 
+    200 = Extra Light/Ultra Light; 
+    300 = Light; 
+    400 = Normal/Regular; 
+    500 = Medium; 
+    600 = Semi Bold/Demi Bold; 
+    700 = Bold; 
+    800 = Extra Bold/Ultra Bold; 
+    900 = Black/Heavy; 
+    950 = Extra Black/Ultra Black; 
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header > h1 {
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+a, p, li {
+    font-size: 1.25rem;
+    line-height: 140%;
+    margin: 0;
+    text-wrap: pretty;
+}
+
+p.button {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+a:default {color: var(--blue);}
+a:hover {color: var(--indigo);}
+a:active {color: var(--pink);}
+a:visited {color: var(--purple);}
+
+header {
+    /* height: 11.5rem; */
+    padding: 2rem;
+}
+
+header.default {
+    background-color: var(--black);
+}
+
+main.home {
+    display: grid;
+    height: 38.5rem;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+div.buttons-square {
+    display: flex;
+    gap: 0.5rem;
+}
+
+button, div#input-box {
+    align-items: center;
+    border-radius: var(--radius-small);
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+    height: var(--button-height);
+    padding: 0.5rem 0.75rem;
+}
+
+button.square {
+    align-items: center;
+    align-content: center;
+    border-radius: var(--radius-small);
+    display: inline; 
+    width: var(--button-height);
+}
+
+button#help-close {
+    right: 0px;
+    bottom: 0px;
+    z-index: 10;
+}
+
+button#help-close > p.button {
+    color: var(--yellow);
+}
+
+img.image-small {
+    border-radius: var(--radius-large);
+    height: 10.5rem;
+    width: 14rem;
+}
