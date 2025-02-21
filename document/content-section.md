@@ -12,6 +12,8 @@ March 21st - April 20th
 
 The Power of the Loop
 
+Chicago's city center is famously named as "The Loop" after a transit infrastructure surrounding the blocks over the streets. This is another proof that the United States has never always been as car-centric as we know today - our public transit also had their days of prime. The Loop was a smart and efficient method before the through-running idea came along. It allows all trains to easily turn around and access more right-of-ways without building multiple termini or even dedicated turning loops, saving the city precious land area to develop more densely. When a train loops around the city center, it evenly distributes passengers to different sections of the area, avoiding over-crowding a small number of nodes.
+
 ## MBTA Subway "The T"
 
 Taurus
@@ -60,6 +62,8 @@ September 23rd - October 22nd
 
 The Force of Automation
 
+The PATCO Speedline is the second automated train service in the world (the first being the Victoria Line of London Underground).
+
 ## Washington Metro
 
 Scorpio
@@ -105,3 +109,5 @@ Pisces
 February 19th - March 20th
 
 What Am I? Maybe It Doesn't Matter...
+
+There has been a long-standing argument about how to categorize the BART. Some say it's a rapid transit for its frequency of services, while others believe it's a commuter rail for the long distance between adjacent stations. Instead of drawing fixed boundaries for different modes of transit, we really should think of them as collections of spectrums and methods. Transit systems are designed similarly for the commonalities of cities but not the other way around - all details should vary and adapt to the environment. BART's planners truly did something visionary by respecting the Bay Area's urban layout and initiating this trend of "high-speed metro," which is becoming increasingly popular these days around the globe.

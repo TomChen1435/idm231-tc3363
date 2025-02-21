@@ -11,7 +11,7 @@
 
 ## Home
 
-- 12 small images
+- 12 small images (should be buttons)
     - Black & white at default state
     - When hover, change to colorful pictures
     - When mouse is down, adding yellow outlines
