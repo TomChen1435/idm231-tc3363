@@ -1,62 +1,63 @@
 # Structure and Flow
 
-## Header
+## header
 
-- Title
-- "Help & Information" button
-    - Click to change to the "Help & Information" div
-    - Click and change to a "Close" button
-    - Click to return to "Help & Information"
-    - Click to return to the home div
+### header#default
 
-## Home
+- h1 (Which North American Rapid Transit System Should You Try Next?)
+- button#help
+    - Click to go to the "section#help"
+    - Click and change to "button#close"
 
-- 12 small images (should be buttons)
+### header#operator
+
+- div.operator-info
+    - svg.logo
+    - h1#operators-name (Operator's name)
+- div.header-btns
+    - a#location.btn
+        - Click to open the city's tourism page in a blank tab
+    - button#close
+        - Click to go to main
+        - Click and change to "button#help"
+
+## main
+
+- section.input-box
+    - h2#prompt (Enter Your Date of Birth to Find out/Try to use the "MM/DD/YYYY" Format)
+    - button#clear
+        - Change the input to "MM/DD/YYYY"
+    - input (MM/DD/YYYY)
+    - button#submit (Find Your Train)
+        - Click to change to the corresponding "section#content"
+- button.image-small
     - Black & white at default state
     - When hover, change to colorful pictures
-    - When mouse is down, adding yellow outlines
+    - When mouse-down, adding yellow outlines
     - Click to play the corresponding sound effect
-    - Click to change to the corrsponding content display divs
-- Date entry at the center
-    - Prompt
-        - "Enter Your Date of Birth to Find out"
-        - When there is an error
-            - Play the error sound
-            - Change to "Invalid Entry. Use the "MM/DD/YYYY" Format."
-    - "Clear" button
-        - Change the input to "MM/DD/YYYY"
-    - Input box
-        - "MM/DD/YYYY"
-    - "Find Your Train" button
-        - Click to change to the corresponding content display page
+    - Click to change to the corrsponding "section#content"
 
-## Help & Information
+## section
 
-- "Close" button
-    - Click to return to the home div
-- Site instructions
-- Sources of information
-- Why am I making this?
-- Contact information
-    - [Tom Chen](tomchen0714@icloud.com)
-    - [Discord](https://discordapp.com/users/tomchen1581)
-    - [Bluesky](https://bsky.app/profile/tomchen1581.bsky.social)
-    - [Flickr](https://www.flickr.com/photos/tomchen1581)
-    - [GitHub](https://github.com/TomChen1435)
+### section#help
 
-## Content Display
+- section (Site instructions)
+- section (Sources of information)
+- article (Why do I make this?)
+- section (Contact information)
+    - a#social.btn
+        - [Tom Chen](tomchen0714@icloud.com)
+        - [Discord](https://discordapp.com/users/tomchen1581)
+        - [Bluesky](https://bsky.app/profile/tomchen1581.bsky.social)
+        - [Flickr](https://www.flickr.com/photos/tomchen1581)
+        - [GitHub](https://github.com/TomChen1435)
 
-- Subheader
-    - "Close" button
-        - Click to return to the home div
-    - Operator
-        - Operator's Logo
-        - Name of transit system
-        - Location button
-            - Click to open the city's tourism page in a blank tab
-- Large image
-- "Visit the Operator's Website" button
-    - Click to open the operator's website in a blank tab
-- Text display
-    - Corrsponding time period
-    - Description of the transit system
+### section#content
+
+- section.left
+    - picture.large
+    - a#link.btn (Visit the Operator's Website)
+        - Click to open the operator's website in a blank tab
+- section.right
+    - div.zodiac
+    - div.writing

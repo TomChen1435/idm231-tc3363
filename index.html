@@ -4,59 +4,229 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transit Zodiac</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
     <base target="_blank">
 </head>
 <body>
 
-    <main class="home">
+    <header id="default">
+        <h1>Which North American Rapid Transit System<br>Should You Try Next?</h1>
+        <button id="help">
+            <svg class="icon-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <g clip-path="url(#clip0_23_102)">
+                <path d="M11.94 19.2C12.36 19.2 12.7152 19.0548 13.0056 18.7644C13.296 18.474 13.4408 18.1192 13.44 17.7C13.4392 17.2808 13.2944 16.9256 13.0056 16.6344C12.7168 16.3432 12.3616 16.1984 11.94 16.2C11.5184 16.2016 11.1636 16.3468 10.8756 16.6356C10.5876 16.9244 10.4424 17.2792 10.44 17.7C10.4376 18.1208 10.5828 18.476 10.8756 18.7656C11.1684 19.0552 11.5232 19.2 11.94 19.2ZM12 24C10.34 24 8.78 23.6848 7.32 23.0544C5.86 22.424 4.59 21.5692 3.51 20.49C2.43 19.4108 1.5752 18.1408 0.945601 16.68C0.316001 15.2192 0.000801518 13.6592 1.51899e-06 12C-0.00079848 10.3408 0.314401 8.7808 0.945601 7.32C1.5768 5.8592 2.4316 4.5892 3.51 3.51C4.5884 2.4308 5.8584 1.576 7.32 0.9456C8.7816 0.3152 10.3416 0 12 0C13.6584 0 15.2184 0.3152 16.68 0.9456C18.1416 1.576 19.4116 2.4308 20.49 3.51C21.5684 4.5892 22.4236 5.8592 23.0556 7.32C23.6876 8.7808 24.0024 10.3408 24 12C23.9976 13.6592 23.6824 15.2192 23.0544 16.68C22.4264 18.1408 21.5716 19.4108 20.49 20.49C19.4084 21.5692 18.1384 22.4244 16.68 23.0556C15.2216 23.6868 13.6616 24.0016 12 24ZM12 21.6C14.68 21.6 16.95 20.67 18.81 18.81C20.67 16.95 21.6 14.68 21.6 12C21.6 9.32 20.67 7.05 18.81 5.19C16.95 3.33 14.68 2.4 12 2.4C9.32 2.4 7.05 3.33 5.19 5.19C3.33 7.05 2.4 9.32 2.4 12C2.4 14.68 3.33 16.95 5.19 18.81C7.05 20.67 9.32 21.6 12 21.6ZM12.12 6.84C12.62 6.84 13.0552 7 13.4256 7.32C13.796 7.64 13.9808 8.04 13.98 8.52C13.98 8.96 13.8452 9.35 13.5756 9.69C13.306 10.03 13.0008 10.35 12.66 10.65C12.2 11.05 11.7952 11.49 11.4456 11.97C11.096 12.45 10.9208 12.99 10.92 13.59C10.92 13.87 11.0252 14.1052 11.2356 14.2956C11.446 14.486 11.6908 14.5808 11.97 14.58C12.27 14.58 12.5252 14.48 12.7356 14.28C12.946 14.08 13.0808 13.83 13.14 13.53C13.22 13.11 13.4 12.7352 13.68 12.4056C13.96 12.076 14.26 11.7608 14.58 11.46C15.04 11.02 15.4352 10.54 15.7656 10.02C16.096 9.5 16.2608 8.92 16.26 8.28C16.26 7.26 15.8452 6.4252 15.0156 5.7756C14.186 5.126 13.2208 4.8008 12.12 4.8C11.36 4.8 10.6352 4.96 9.94559 5.28C9.256 5.6 8.7308 6.09 8.37 6.75C8.23 6.99 8.1852 7.2452 8.2356 7.5156C8.286 7.786 8.4208 7.9908 8.64 8.13C8.92 8.29 9.21 8.34 9.51 8.28C9.81 8.22 10.06 8.05 10.26 7.77C10.48 7.47 10.7552 7.24 11.0856 7.08C11.416 6.92 11.7608 6.84 12.12 6.84Z"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_23_102">
+                <rect width="24" height="24"/>
+                </clipPath>
+                </defs>
+            </svg>
+            <p class="btn">Help & Information</p>
+        </button>
+    </header>
 
-        <section class="input">
-
-            <h1 id="prompt">Enter Your Date of Birth to Find out</h1>
-
-            <button id="clear">
-                <img src="media/icons/backspace.svg" alt="X" class="icon">
-                <p class="button">Clear</p>
+    <header id="operator" class="hide">
+        <div class="operator-info">
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="652" height="120" viewBox="0 0 652 120">
+                <rect width="652" height="120" fill="#8E8E93"/>
+            </svg>
+            <h1 id="operators-name">Operator<br>Operator</h1>
+        </div>
+        <div class="header-btns">
+            <a href="" id="location" class="btn">City, State</a>
+            <button id="close">
+                <svg class="icon-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M12 13.9163L5.29278 20.6236C5.04182 20.8745 4.72243 21 4.3346 21C3.94677 21 3.62738 20.8745 3.37643 20.6236C3.12547 20.3726 3 20.0532 3 19.6654C3 19.2776 3.12547 18.9582 3.37643 18.7072L10.0836 12L3.37643 5.29278C3.12547 5.04182 3 4.72243 3 4.3346C3 3.94677 3.12547 3.62738 3.37643 3.37643C3.62738 3.12547 3.94677 3 4.3346 3C4.72243 3 5.04182 3.12547 5.29278 3.37643L12 10.0836L18.7072 3.37643C18.9582 3.12547 19.2776 3 19.6654 3C20.0532 3 20.3726 3.12547 20.6236 3.37643C20.8745 3.62738 21 3.94677 21 4.3346C21 4.72243 20.8745 5.04182 20.6236 5.29278L13.9163 12L20.6236 18.7072C20.8745 18.9582 21 19.2776 21 19.6654C21 20.0532 20.8745 20.3726 20.6236 20.6236C20.3726 20.8745 20.0532 21 19.6654 21C19.2776 21 18.9582 20.8745 18.7072 20.6236L12 13.9163Z"/>
+                </svg>
+                <p class="btn">Close</p>
             </button>
+        </div>
+    </header>
 
-            <div id="input-box">
-                <p id="input">MM/DD/YYYY</p>
+    <main>
+        <section class="input-box">
+            <h2 id="prompt">Enter Your Date of Birth to Find out</h2>
+            <div class="main-btns">
+                <button id="clear">
+                    <svg class="icon-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M14.1538 13.75L16.4923 16.125C16.7179 16.3542 17.0051 16.4687 17.3538 16.4687C17.7026 16.4687 17.9897 16.3542 18.2154 16.125C18.441 15.8958 18.5538 15.6042 18.5538 15.25C18.5538 14.8958 18.441 14.6042 18.2154 14.375L15.8769 12L18.2154 9.625C18.441 9.39583 18.5538 9.10417 18.5538 8.75C18.5538 8.39583 18.441 8.10417 18.2154 7.875C17.9897 7.64583 17.7026 7.53125 17.3538 7.53125C17.0051 7.53125 16.7179 7.64583 16.4923 7.875L14.1538 10.25L11.8154 7.875C11.5897 7.64583 11.3026 7.53125 10.9538 7.53125C10.6051 7.53125 10.3179 7.64583 10.0923 7.875C9.86667 8.10417 9.75385 8.39583 9.75385 8.75C9.75385 9.10417 9.86667 9.39583 10.0923 9.625L12.4308 12L10.0923 14.375C9.86667 14.6042 9.75385 14.8958 9.75385 15.25C9.75385 15.6042 9.86667 15.8958 10.0923 16.125C10.3179 16.3542 10.6051 16.4687 10.9538 16.4687C11.3026 16.4687 11.5897 16.3542 11.8154 16.125L14.1538 13.75ZM8 22C7.61026 22 7.24103 21.9112 6.89231 21.7337C6.54359 21.5562 6.25641 21.3117 6.03077 21L0.492308 13.5C0.164103 13.0625 0 12.5625 0 12C0 11.4375 0.164103 10.9375 0.492308 10.5L6.03077 3C6.25641 2.6875 6.54359 2.44292 6.89231 2.26625C7.24103 2.08958 7.61026 2.00083 8 2H21.5385C22.2154 2 22.7951 2.245 23.2775 2.735C23.76 3.225 24.0008 3.81333 24 4.5V19.5C24 20.1875 23.7592 20.7762 23.2775 21.2662C22.7959 21.7562 22.2162 22.0008 21.5385 22H8ZM8 19.5H21.5385V4.5H8L2.46154 12L8 19.5Z"/>
+                    </svg>
+                    <p class="btn">Clear</p>
+                </button>
+                <input type="text" placeholder="MM/DD/YYYY">
+                <button id="submit">
+                    <svg class="icon-small" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M8.83995 16.7261L19.8013 5.40089C20.0599 5.13363 20.3617 5 20.7066 5C21.0515 5 21.3533 5.13363 21.612 5.40089C21.8707 5.66815 22 5.98575 22 6.35367C22 6.7216 21.8707 7.03875 21.612 7.30512L9.74531 19.5991C9.48663 19.8664 9.18484 20 8.83995 20C8.49505 20 8.19326 19.8664 7.93459 19.5991L2.37309 13.853C2.11441 13.5857 1.99025 13.2686 2.0006 12.9016C2.01094 12.5345 2.14589 12.2169 2.40542 11.9488C2.66496 11.6806 2.97235 11.547 3.3276 11.5479C3.68284 11.5488 3.9898 11.6824 4.24848 11.9488L8.83995 16.7261Z"/>
+                    </svg>
+                    <p class="btn">Find Your Train</p>
+                </button>
             </div>
-
-            <button id="submit">
-                <img src="media/icons/check.svg" alt="X" class="icon">
-                <p class="button">Find Your Train</p>
-            </button>
-
         </section>
-
-        <img class="image-small" src="media/images-optimized/chicago-l.jpg" alt="Aries">
-
-        <img class="image-small" src="media/images-optimized/mbta-t.jpg" alt="Taurus">
-
-        <img class="image-small" src="media/images-optimized/nyc-subway.jpg" alt="Gemini">
-
-        <img class="image-small" src="media/images-optimized/path.jpg" alt="Cancer">
-
-        <img class="image-small" src="media/images-optimized/sir.jpg" alt="Leo">
-
-        <img class="image-small" src="media/images-optimized/septa-metro.jpg" alt="Virgo">
-
-        <img class="image-small" src="media/images-optimized//patco.jpg" alt="Libra">
-
-        <img class="image-small" src="media/images-optimized/dc-metro.jpg" alt="Scorpio">
-
-        <img class="image-small" src="media/images-optimized/marta.jpg" alt="Sagittarius">
-
-        <img class="image-small" src="media/images-optimized/miami-metro.jpg" alt="Capicorn">
-
-        <img class="image-small" src="media/images-optimized/la-metro.jpg" alt="Aquarius">
-
-        <img class="image-small" src="media/images-optimized/bart.jpg" alt="Pisces">
-
+        <button id="chicago-l" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/chicago-l.webp">
+                <img src="media/images-optimized/chicago-l.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="mbta-t" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/mbta-t.webp">
+                <img src="media/images-optimized/mbta-t.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="nyc-subway" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/nyc-subway.webp">
+                <img src="media/images-optimized/nyc-subway.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="path" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/path.webp">
+                <img src="media/images-optimized/path.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="sir" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/sir.webp">
+                <img src="media/images-optimized/sir.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="septa-metro" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/septa-metro.webp">
+                <img src="media/images-optimized/septa-metro.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="patco" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/patco.webp">
+                <img src="media/images-optimized/patco.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="dc-metro" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/dc-metro.webp">
+                <img src="media/images-optimized/dc-metro.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="marta" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/marta.webp">
+                <img src="media/images-optimized/marta.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="miami-metro" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/miami-metro.webp">
+                <img src="media/images-optimized/miami-metro.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="la-metro" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/la-metro.webp">
+                <img src="media/images-optimized/la-metro.jpg" alt="Image of a Train">
+            </picture>
+        </button>
+        <button id="bart" class="image-small">
+            <picture>
+                <source type="image/webp" srcset="media/images-optimized/bart.webp">
+                <img src="media/images-optimized/bart.jpg" alt="Image of a Train">
+            </picture>
+        </button>
     </main>
+
+    <section id="help" class="hide">
+        <section>
+            <h2>Site Instruction</h2>
+            <ul>
+                <li>Enter your date of birth or click one of the pictures to find the public transit system you should discover next</li>
+                <li>Click the button to visit their website</li>
+                <li>Click the location to find more about what the cities have to offer</li>
+                <li>Click "Close" to return to the homepage</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Sources of Information</h2>
+            <ul>
+                <li>Source of all images: Wikipedia</li>
+                <li>Source of audio:</li>
+            </ul>
+        </section>
+        <article>
+            <h2>Why Do I Make This?</h2>
+            <p>Heavy-rail rapid transit has been the most efficient way to transport a city's population since its creation. It is the perfect balance for passenger railways, combining the best of two worlds with the capacity of inter-urban railways and accessibility of urban trolleys.</p>
+            <p>The stories for this mode of transit in the United States have been through three phases since the turn of the 20th century, when cities like Chicago, Boston, New York, and Philadelphia all started to develop their unique plans for rail mass transit to fulfill the needs for intra-urban commutes with the growing urban areas and increasing population. Back then, these transit systems were mostly designed and built by private operators. The rail mass transit of a singular city often consisted of multiple systems run by separate companies. Unlike the chaos for the inter-city rail industry that led to different companies wasting tons of resources on the same corridor just to compete with one another, the limitations for urban terrains and governmental interventions made the operators utilize what they had and form more accessible networks that served more people among more communities.</p>
+            <p>The post-war days saw a massive decline for the U.S. railroad industry. Even the undisputed giants like Penn Central could not resist the waves of bankruptcy throughout the industry. In the meantime, the government started to take more responsibilities to protect our diversity of land transporation. The transition happened at the end of the 1960s when the Port Authority Transit Corporation (PATCO) Speedline opened between Camden, New Jersey and Philadelphia. Along with other national and international icons like the Washington Metro and the Bay Area Rapid Transit (BART), these brand new systems were designed to take an advantge of the more advanced technologies to better serve the more spread-out communities under the trend of suburbanism by combining the best of rapid transit and commuter rail. Therefore, the stations were farther apart from each other, while the trains were not only faster but also mostly automated, providing the commuters powerful alternatives in that car-centric era.</p>
+            <p>The following decades were very much of an extension for the previous phase. More cities that never had this mode of transit - Los Angeles, Miami, and Baltimore - opened their respective heavy-rail rapid transit for the first time, each coming up with an ambitious and extensive plan as a remedy for the gradually failing automobile-centric urban planning. However, severe public transit budget cuts at the same time put an abrupt end on this trend and forced more cities to pivot their focus toward more affordable alternatives, such as light rails. Fairly said, light rails may suit those smaller cities better, but the real issue is that those "light rail systems" in the U.S. are factually streetcars, which are proven to be more expensive and less capable compared to buses. They are like a band-aid set out to fix the long-standing wounds of our transportation for this country - it is never going to work.</p>
+            <p>As of now, I am sure you get the idea behind this project: the United States stopping to build heavy-rail metro systems for more cities does not mean the end for this mode of transit. Instead, we, as citizens and residents with a shared vision for a less car-dependent future, have the responsibility to advocate and convoy for those long-awaited and highly-anticipated construction projects throughout the nation: </p>
+            <ul>
+                <li><a href="https://www.mta.info/project/second-avenue-subway-phase-2">2nd Avenue Subway</a> (New York City)</li>
+                <li><a href="https://thequeenslink.org">QueensLink</a> (New York City)</li>
+                <li><a href="https://www.panynj.gov/path/en/modernizing-path/extension-project.html">PATH Newark Airport Extension</a> (Newark, NJ)</li>
+                <li><a href="https://rpa.org/work/campaigns/triboro">Tri-boro Express</a> (New York City)</li>
+                <li><a href="https://blvdsubway.com">Roosevelt Boulevard Subway</a> (Philadelphia)</li>
+                <li><a href="https://www.inquirer.com/transportation/broad-street-line-extension-rail-navy-yard-septa-subway-20190201.html#:~:text=SEPTA%20pitched%20three%20proposals%20on,%241.5%20billion%20and%20%241.6%20billion.">Broad Street Line Navy Yard Extension</a> (Philadelphia)</li>
+                <li><a href="https://www.transitchicago.com/rle">Red Line 130th Street Extension</a> (Chicago)</li>
+                <li><a href="https://www.vta.org/projects/bart-sv/phase-ii">BART Silicon Valley Extension</a> (San Francisco Bay Area)</li>
+                <li><a href="https://www.metro.net/projects/westside">D Line Westside Extension</a> (Los Angeles)</li>
+                <li><p>So much more potential and possibilities</p></li>
+            </ul>
+            <a href="https://lernu.net">Vivan niaj transitoj!</a>
+        </article>
+        <section>
+            <h2>Contact Information</h2>
+            <a href="mailto:tomchen0714@icloud.com" class="btn-social">
+                <svg class="icon-large" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+                    <path d="M32.0834 8.74992C32.0834 7.14575 30.7709 5.83325 29.1667 5.83325H5.83341C4.22925 5.83325 2.91675 7.14575 2.91675 8.74992V26.2499C2.91675 27.8541 4.22925 29.1666 5.83341 29.1666H29.1667C30.7709 29.1666 32.0834 27.8541 32.0834 26.2499V8.74992ZM29.1667 8.74992L17.5001 16.0416L5.83341 8.74992H29.1667ZM29.1667 26.2499H5.83341V11.6666L17.5001 18.9583L29.1667 11.6666V26.2499Z"/>
+                </svg>
+            </a>
+            <a href="https://discordapp.com/users/tomchen1581" class="btn-social">
+                <svg class="icon-large" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+                    <path d="M28.1021 7.77284C26.1625 6.86867 24.0625 6.21242 21.875 5.83325C21.8365 5.8338 21.7999 5.84953 21.7729 5.877C21.5104 6.35825 21.2042 6.98534 21 7.46659C18.6798 7.11681 16.3202 7.11681 14 7.46659C13.7958 6.97075 13.4896 6.35825 13.2125 5.877C13.1979 5.84784 13.1542 5.83325 13.1104 5.83325C10.9229 6.21242 8.83751 6.86867 6.88334 7.77284C6.86876 7.77284 6.85418 7.78742 6.83959 7.802C2.87293 13.7374 1.77917 19.5124 2.31876 25.2291C2.31876 25.2583 2.33334 25.2874 2.36251 25.302C4.98751 27.227 7.51043 28.3937 10.0042 29.1666C10.0479 29.1812 10.0917 29.1666 10.1063 29.1374C10.6896 28.3353 11.2146 27.4895 11.6667 26.5999C11.6958 26.5416 11.6667 26.4833 11.6083 26.4687C10.7771 26.1478 9.98959 25.7687 9.21668 25.3312C9.15834 25.302 9.15834 25.2145 9.20209 25.1708C9.36251 25.0541 9.52292 24.9228 9.68334 24.8062C9.71251 24.777 9.75626 24.777 9.78543 24.7916C14.8021 27.0812 20.2125 27.0812 25.1708 24.7916C25.2 24.777 25.2438 24.777 25.2729 24.8062C25.4333 24.9374 25.5938 25.0541 25.7542 25.1853C25.8125 25.2291 25.8125 25.3166 25.7396 25.3458C24.9813 25.7978 24.1792 26.1624 23.3479 26.4833C23.2896 26.4978 23.275 26.5708 23.2896 26.6145C23.7563 27.5041 24.2813 28.3499 24.85 29.152C24.8938 29.1666 24.9375 29.1812 24.9813 29.1666C27.4896 28.3937 30.0125 27.227 32.6375 25.302C32.6667 25.2874 32.6813 25.2583 32.6813 25.2291C33.3229 18.6228 31.6167 12.8916 28.1604 7.802C28.1458 7.78742 28.1313 7.77284 28.1021 7.77284ZM12.425 21.7437C10.9229 21.7437 9.66876 20.3583 9.66876 18.652C9.66876 16.9458 10.8938 15.5603 12.425 15.5603C13.9708 15.5603 15.1958 16.9603 15.1813 18.652C15.1813 20.3583 13.9563 21.7437 12.425 21.7437ZM22.5896 21.7437C21.0875 21.7437 19.8333 20.3583 19.8333 18.652C19.8333 16.9458 21.0583 15.5603 22.5896 15.5603C24.1354 15.5603 25.3604 16.9603 25.3458 18.652C25.3458 20.3583 24.1354 21.7437 22.5896 21.7437Z"/>
+                </svg>
+            </a>
+            <a href="https://bsky.app/profile/tomchen1581.bsky.social" class="btn-social">
+                <svg class="icon-large" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+                    <path d="M17.5001 16.6076C16.1788 14.0395 12.5826 9.25178 9.23862 6.8922C6.03466 4.63178 4.81404 5.02116 4.01341 5.38574C3.08591 5.80137 2.91675 7.22616 2.91675 8.06178C2.91675 8.90032 3.37612 14.9291 3.67508 15.9368C4.66675 19.2618 8.18716 20.3847 11.4334 20.0245C6.67925 20.7289 2.45446 22.4599 7.99175 28.6257C14.0847 34.933 16.3422 27.2739 17.5001 23.3903C18.658 27.2739 19.9909 34.6574 26.8976 28.6257C32.0834 23.3903 28.3224 20.7289 23.5682 20.0245C26.813 20.3847 30.3349 19.2618 31.3251 15.9368C31.624 14.9305 32.0834 8.90032 32.0834 8.06324C32.0834 7.2247 31.9142 5.80282 30.9867 5.38282C30.1861 5.02116 28.9655 4.62887 25.7615 6.88928C22.4176 9.25324 18.8199 14.0409 17.5001 16.6076Z"/>
+                </svg>
+            </a>
+            <a href="https://www.flickr.com/photos/tomchen1581" class="btn-social">
+                <svg class="icon-large" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+                    <path d="M16.0416 17.4999C16.0416 19.4338 15.2734 21.2885 13.9059 22.6559C12.5385 24.0234 10.6838 24.7916 8.74992 24.7916C6.81605 24.7916 4.96138 24.0234 3.59393 22.6559C2.22648 21.2885 1.45825 19.4338 1.45825 17.4999C1.45825 15.566 2.22648 13.7114 3.59393 12.3439C4.96138 10.9765 6.81605 10.2083 8.74992 10.2083C10.6838 10.2083 12.5385 10.9765 13.9059 12.3439C15.2734 13.7114 16.0416 15.566 16.0416 17.4999ZM33.5416 17.4999C33.5416 19.4338 32.7734 21.2885 31.4059 22.6559C30.0385 24.0234 28.1838 24.7916 26.2499 24.7916C24.316 24.7916 22.4614 24.0234 21.0939 22.6559C19.7265 21.2885 18.9583 19.4338 18.9583 17.4999C18.9583 15.566 19.7265 13.7114 21.0939 12.3439C22.4614 10.9765 24.316 10.2083 26.2499 10.2083C28.1838 10.2083 30.0385 10.9765 31.4059 12.3439C32.7734 13.7114 33.5416 15.566 33.5416 17.4999Z"/>
+                </svg>
+            </a>
+            <a href="https://github.com/TomChen1435" class="btn-social">
+                <svg class="icon-large" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+                    <path d="M17.5001 2.91675C15.585 2.91675 13.6886 3.29396 11.9193 4.02684C10.1499 4.75972 8.54229 5.83392 7.18811 7.18811C4.4532 9.92301 2.91675 13.6323 2.91675 17.5001C2.91675 23.9459 7.10216 29.4147 12.8917 31.3542C13.6209 31.4709 13.8542 31.0188 13.8542 30.6251V28.1605C9.81466 29.0355 8.95425 26.2063 8.95425 26.2063C8.28341 24.5147 7.3355 24.0626 7.3355 24.0626C6.00841 23.1584 7.43758 23.1876 7.43758 23.1876C8.89591 23.2897 9.66883 24.6897 9.66883 24.6897C10.9376 26.9063 13.0813 26.2501 13.9126 25.9001C14.0438 24.9522 14.423 24.3105 14.8313 23.9459C11.5938 23.5813 8.19591 22.3272 8.19591 16.7709C8.19591 15.1522 8.75008 13.8542 9.698 12.8188C9.55216 12.4542 9.04175 10.9376 9.84383 8.96883C9.84383 8.96883 11.0688 8.57508 13.8542 10.4563C15.0063 10.1355 16.2605 9.97508 17.5001 9.97508C18.7397 9.97508 19.9938 10.1355 21.1459 10.4563C23.9313 8.57508 25.1563 8.96883 25.1563 8.96883C25.9584 10.9376 25.448 12.4542 25.3022 12.8188C26.2501 13.8542 26.8042 15.1522 26.8042 16.7709C26.8042 22.3417 23.3917 23.5667 20.1397 23.9313C20.6647 24.3834 21.1459 25.273 21.1459 26.6292V30.6251C21.1459 31.0188 21.3792 31.4855 22.123 31.3542C27.9126 29.4001 32.0834 23.9459 32.0834 17.5001C32.0834 15.585 31.7062 13.6886 30.9733 11.9193C30.2404 10.1499 29.1662 8.5423 27.8121 7.18811C26.4579 5.83392 24.8502 4.75972 23.0809 4.02684C21.3115 3.29396 19.4152 2.91675 17.5001 2.91675Z"/>
+                </svg>
+            </a>
+        </section>
+    </section>
+
+    <section id="content" class="hide">
+        <section class="left">
+            <picture class="large">
+                <source type="image/webp" srcset="media/images-optimized/default.webp">
+                <img src="media/images-optimized/default.jpg" alt="Image of a Train">
+            </picture>
+            <a href="" id="link" class="btn">Visit the Operator's Website</a>
+        </section>
+        <section class="right">
+            <div class="zodiac">
+                <h2 id="zodiac-sign">My Zodiac Sign</h2>
+                <h3 id="duration">January 1st - December 31st</h3>
+            </div>
+            <div class="writing">
+                <h2 id="title">I am the title</h2>
+                <p id="description">I am a the placeholder text</p>
+            </div>
+        </section>
+    </section>
+
+    <script src="postload.js"></script>
 
 </body>
 </html>

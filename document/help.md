@@ -1,16 +1,16 @@
 ## Site instructions
 
 - Enter your date of birth or click one of the pictures to find the public transit system you should discover next
-- Click the operator's logo or the button to visit their website
+- Click the button to visit their website
 - Click the location to find more about what the cities have to offer
 - Click "Close" to return to the homepage
 
-## Sources of Information
+## Sources of information
 
 - Source of all images: Wikipedia
 - Source of audio: 
 
-## Why do I Make This? 
+## Why do I make this? 
 
 Heavy-rail rapid transit has been the most efficient way to transport a city's population since its creation. It is the perfect balance for passenger railways, combining the best of two worlds with the capacity of inter-urban railways and accessibility of urban trolleys.
 
@@ -29,11 +29,11 @@ As of now, I am sure you get the idea behind this project: the United States sto
 - [Roosevelt Boulevard Subway (Philadelphia)](https://blvdsubway.com)
 - [Broad Street Line Navy Yard Extension (Philadelphia)](https://www.inquirer.com/transportation/broad-street-line-extension-rail-navy-yard-septa-subway-20190201.html#:~:text=SEPTA%20pitched%20three%20proposals%20on,%241.5%20billion%20and%20%241.6%20billion.)
 - [Red Line 130th Street Extension (Chicago)](https://www.transitchicago.com/rle)
-- [BART Silicon Valley Extension (Bay Area)](https://www.vta.org/projects/bart-sv/phase-ii)
+- [BART Silicon Valley Extension (San Francisco Bay Area)](https://www.vta.org/projects/bart-sv/phase-ii)
 - [D Line Westside Extension (Los Angeles)](https://www.metro.net/projects/westside)
 - So much more potential and possibilities
 
-Vivan niaj transitoj!
+[Vivan niaj transitoj!](https://lernu.net)
 
 ## Contact information
 
