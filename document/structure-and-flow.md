@@ -15,7 +15,7 @@
     - svg.logo
     - h1#operators-name (Operator's name)
 - div.header-btns
-    - a#location.btn
+    - button#location
         - Click to open the city's tourism page in a blank tab
     - button#close
         - Click to go to main
@@ -25,12 +25,13 @@
 
 - section.input-box
     - h2#prompt (Enter Your Date of Birth to Find out/Try to use the "MM/DD/YYYY" Format)
+    - div.main-btns
     - button#clear
         - Change the input to "MM/DD/YYYY"
     - input (MM/DD/YYYY)
     - button#submit (Find Your Train)
         - Click to change to the corresponding "section#content"
-- button.image-small
+- button.thumbnail
     - Black & white at default state
     - When hover, change to colorful pictures
     - When mouse-down, adding yellow outlines
@@ -45,18 +46,15 @@
 - section (Sources of information)
 - article (Why do I make this?)
 - section (Contact information)
-    - a#social.btn
-        - [Tom Chen](tomchen0714@icloud.com)
-        - [Discord](https://discordapp.com/users/tomchen1581)
-        - [Bluesky](https://bsky.app/profile/tomchen1581.bsky.social)
-        - [Flickr](https://www.flickr.com/photos/tomchen1581)
-        - [GitHub](https://github.com/TomChen1435)
+    - section.personal-info
+    - section.social-btns
+        - button.social
 
 ### section#content
 
 - section.left
     - picture.large
-    - a#link.btn (Visit the Operator's Website)
+    - button#link (Visit the Operator's Website)
         - Click to open the operator's website in a blank tab
 - section.right
     - div.zodiac

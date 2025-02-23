@@ -38,7 +38,7 @@ As of now, I am sure you get the idea behind this project: the United States sto
 ## Contact information
 
 Tom Chen [(He/Him/His)](https://pronouns.org)
-BS User Experience and Interaction Design in progress [(UXID)](https://drexel.edu/westphal/academics/undergraduate/user-experience/)
+BS User Experience and Interaction Design [(UXID)](https://drexel.edu/westphal/academics/undergraduate/user-experience/) in progress 
 Antoinette Westphal College of Media Arts and Design [(CoMAD)](https://drexel.edu/westphal)
 [Drexel University](https://drexel.edu)
 [Philadelphia](https://www.visitphilly.com), [Pennsylvania](https://www.visitpa.com), [United States](https://www.visittheusa.com)
