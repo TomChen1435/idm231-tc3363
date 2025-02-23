@@ -7,6 +7,9 @@
 - h1 (Which North American Rapid Transit System Should You Try Next?)
 - button#help
     - Click to go to the "section#help"
+    - Click and change to "button#help-close"
+- button#help-close
+    - Click to go to main
     - Click and change to "button#close"
 
 ### header#operator

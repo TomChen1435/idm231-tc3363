@@ -13,6 +13,11 @@
     --purple: rgb(175,82,222);
     --pink: rgb(255,45,85);
 
+    --discord: #5865f2;
+    --bluesky: #1185fe;
+    --flickr-blue: #0c64d2;
+    --flickr-magenta: #fe007f;
+
     --radius-small: 0.75rem;
     --radius-large: 1.5rem;
     --button-height: 2.8125rem;
@@ -26,7 +31,7 @@
     font-family: var(--font);
 }
 
-.hide {display: none;}
+.hide {display: none !important;}
 
 /* texts and typography */
 
@@ -102,6 +107,10 @@ button, input {
 
 button:hover {
     background-color: var(--white) !important;
+}
+
+button:active {
+    border: 0.25rem solid var(--yellow) !important;
 }
 
 /* images */
@@ -250,6 +259,10 @@ div.main-btns {
     flex-flow: row nowrap;
     margin: 0;
     gap: 1rem;
+
+    button:active {
+        border: 0.25rem solid var(--orange);
+    }
 }
 
 button#clear {background-color: var(--red);}
@@ -324,19 +337,23 @@ section#help {
         display: flex;
         flex-flow: column nowrap;
         gap: 0.75rem;
+    }
 
-        h2 {font-size: 2.5rem;}
-        a, li, p {font-size: 1.5rem;}
+    section.social-btns {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 1rem;
     }
 }
 
-section.social-btns {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 1rem;
-}
+button#email, button#github {background-color: var(--black);}
 
-button.social {
-    background-color: var(--orange);
-    width: var(--button-height);
-}
+button#email:hover, button#github:hover {svg {fill: var(--black);}}
+
+button#discord {background-color: var(--discord);}
+
+button#discord:hover {svg {fill: var(--discord);}}
+
+button#bluesky {background-color: var(--bluesky);}
+
+button#bluesky:hover {svg {fill: var(--bluesky);}}
