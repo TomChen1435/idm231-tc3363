@@ -29,11 +29,13 @@
 * {
     box-sizing: border-box;
     font-family: var(--font);
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
 }
 
 .hide {display: none !important;}
 
-/* texts and typography */
+/* texts */
 
 /* 
     Weight Name
@@ -56,33 +58,35 @@ h1, h2, h3, a, input, li, p {
 }
 
 h1 {
-    font-weight: 500;
     font-size: 3rem;
+    font-weight: 500;
     line-height: 125%;
 }
 
 h2 {
-    font-weight: 500;
     font-size: 2rem;
+    font-weight: 500;
 }
 
 h3 {
-    font-weight: 400;
     font-size: 1.5rem;
+    font-weight: 400;
 }
 
 ul {margin: 0;}
 
 a, input, li, p {
-    font-weight: 400;
     font-size: 1.125rem;
+    font-weight: 400;
     line-height: 140%;
 }
 
 p.btn {
-    font-weight: 500;
     font-size: 1.5rem;
+    font-weight: 500;
 }
+
+a {transition-property: color;}
 
 a:default {color: var(--blue);}
 a:hover {color: var(--indigo);}
@@ -100,18 +104,22 @@ button, input {
     height: var(--button-height);
     justify-content: center;
     padding: 0.5rem 0.75rem;
+    transition-property: background-color;
 
-    svg {fill: var(--white);}
-    p {color: var(--white);}
+    svg {
+        fill: var(--white);
+        transition-property: fill;
+    }
+
+    p {
+        color: var(--white);
+        transition-property: color;
+    }
 }
 
-button:hover {
-    background-color: var(--white) !important;
-}
+button:hover {background-color: var(--white) !important;}
 
-button:active {
-    border: 0.25rem solid var(--yellow) !important;
-}
+button:active {border: 0.25rem solid var(--yellow) !important;}
 
 /* images */
 
@@ -120,18 +128,17 @@ picture, img {border-radius: var(--radius-large);}
 /* header and main frame sizes */
 
 header, main, section#help, section#content {
-    width: 100%;
     padding: 2rem;
+    width: 100%;
 }
 
-main, section#content {
-    height: 38.5rem;
-}
+main, section#content {height: 38.5rem;}
 
 header {
     height: 11.5rem;
     position: sticky;
     top: 0;
+    z-index: 10;
 
     h1 {color: var(--white);}
 }
@@ -142,9 +149,9 @@ header#default {
     background-color: var(--blue);
 
     button#help {
+        bottom: 2rem;
         position: absolute;
         right: 2rem;
-        bottom: 2rem;
     }
 }
 
@@ -202,6 +209,7 @@ button.thumbnail {
     height: 10.5rem;
     padding: 0;
     width: 14rem;
+    transition-property: filter;
 
     picture, img {
         height: 100%;
@@ -212,20 +220,18 @@ button.thumbnail {
 button.thumbnail:hover {filter: none;}
 
 button.thumbnail:active {
-    border: 0.25rem solid var(--yellow);
-
-    picture, img {border-radius: calc(var(--radius-large) - 0.25rem);}
+    picture,img {border-radius: calc(var(--radius-large) - 0.25rem);}
 }
 
 main {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(3,1fr);
     gap: 1.5rem;
     grid-template-areas:
         'chicago-l mbta-t nyc-subway path sir'
         'bart input-box input-box input-box septa-metro'
-        'la-metro miami-metro marta dc-metro patco'
+        'la-metro miami-metro marta dc-metro patco';
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
 }
 
 .input-box {grid-area: input-box;}
@@ -259,10 +265,6 @@ div.main-btns {
     flex-flow: row nowrap;
     margin: 0;
     gap: 1rem;
-
-    button:active {
-        border: 0.25rem solid var(--orange);
-    }
 }
 
 button#clear {background-color: var(--red);}

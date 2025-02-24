@@ -26,6 +26,7 @@ As of now, I am sure you get the idea behind this project: the United States sto
 - [QueensLink (New York City)](https://thequeenslink.org)
 - [PATH Newark Airport Extension (Newark, NJ)](https://www.panynj.gov/path/en/modernizing-path/extension-project.html)
 - [Tri-boro Express (New York City)](https://rpa.org/work/campaigns/triboro)
+- [Utica Avenue Subway](https://www.mta.info/project/utica-avenue-transit-improvements-study)
 - [Roosevelt Boulevard Subway (Philadelphia)](https://blvdsubway.com)
 - [Broad Street Line Navy Yard Extension (Philadelphia)](https://www.inquirer.com/transportation/broad-street-line-extension-rail-navy-yard-septa-subway-20190201.html#:~:text=SEPTA%20pitched%20three%20proposals%20on,%241.5%20billion%20and%20%241.6%20billion.)
 - [Red Line 130th Street Extension (Chicago)](https://www.transitchicago.com/rle)

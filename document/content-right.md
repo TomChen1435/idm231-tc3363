@@ -30,6 +30,8 @@ May 21st - June 20th
 
 Local or Express?
 
+As cities expand, 
+
 ## Port-Authority Trans-Hudson
 
 Cancer
@@ -53,6 +55,8 @@ Virgo
 August 23rd - September 22nd
 
 Trains and Trolleys, One Tunnel for All
+
+When thinking of a quad-track underground tunnel for rapid transit in Philly, many would picture the section of the Broad Street Subway in North Philadelphia, where express trains blast through local stations at speed. To the west of the City Hall, the Market Street Tunnel achieves the same goal of level separation with a different approach. Despite all four tracks using the same 1,581mm Pennsylvanian trolley gauge, the local tracks are used by the Subway-Surface Trolleys, powered by overhead catenaries, while the third-rail-powered L goes express between City Hall and 30th Street. Together, the combination allows both faster trips in the urban core and more variety for destinations towards the southwest.
 
 ## PATCO Speedline
 
