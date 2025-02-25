@@ -134,7 +134,7 @@ const cWritings = [writing_chicago_l, writing_mbta_t, writing_nyc_subway, writin
 
 // matrix for data
 
-// myDataSet[type][index][...]
+// all data sets [index][...]
 
 // cOperator [0-logo svg code, 1-system name, 2-url]
 // cLoation [0-text, 1-url]
@@ -142,8 +142,6 @@ const cWritings = [writing_chicago_l, writing_mbta_t, writing_nyc_subway, writin
 // cSound [/]
 // cZodiac [0-zodiac sign, 1-duration]
 // cWritings [0-title, 1-context]
-
-const myDataSet = [cOperator, cLocation, cImage, cSound, cZodiac, cWritings];
 
 // header
 

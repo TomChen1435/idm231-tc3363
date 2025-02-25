@@ -81,17 +81,17 @@ a, input, li, p {
     line-height: 140%;
 }
 
-p.btn {
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
 a {transition-property: color;}
 
 a:default {color: var(--blue);}
 a:hover {color: var(--indigo);}
 a:active {color: var(--pink);}
 a:visited {color: var(--purple);}
+
+span.btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 
 /* buttons and input */
 
@@ -104,17 +104,17 @@ button, input {
     height: var(--button-height);
     justify-content: center;
     padding: 0.5rem 0.75rem;
-    transition-property: background-color;
+    transition-property: background-color;  
+}
 
-    svg {
-        fill: var(--white);
-        transition-property: fill;
-    }
+button svg {
+    fill: var(--white);
+    transition-property: fill;
+}
 
-    p {
-        color: var(--white);
-        transition-property: color;
-    }
+button span {
+    color: var(--white);
+    transition-property: color;
 }
 
 button:hover {background-color: var(--white) !important;}
@@ -139,28 +139,25 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
-
-    h1 {color: var(--white);}
 }
+
+header h1 {color: var(--white);}
 
 /* default header */
 
-header#default {
-    background-color: var(--blue);
+header#default {background-color: var(--blue);}
 
-    button#help {
-        bottom: 2rem;
-        position: absolute;
-        right: 2rem;
-    }
+header#default button#header-help {
+    bottom: 2rem;
+    position: absolute;
+    right: 2rem;
 }
 
-button#help {background-color: var(--orange);}
+button#header-help {background-color: var(--orange);}
 
-button#help:hover {
-    svg {fill: var(--orange);}
-    p {color: var(--orange);}
-}
+button#header-help:hover svg {fill: var(--orange);}
+
+button#header-help:hover span {color: var(--orange);}
 
 /* header for operator information */
 
@@ -185,17 +182,15 @@ div.header-btns {
 
 button#location {background-color: var(--orange);}
 
-button#location:hover {
-    svg {fill: var(--orange);}
-    p {color: var(--orange);}
-}
+button#location:hover svg {fill: var(--orange);}
+
+button#location:hover span {color: var(--orange);}
 
 button#close {background-color: var(--red);}
 
-button#close:hover {
-    svg {fill: var(--red);}
-    p {color: var(--red);}
-}
+button#close:hover svg {fill: var(--red);}
+
+button#close:hover span {color: var(--red);}
 
 /* grid system of homepage */
 
@@ -210,18 +205,16 @@ button.thumbnail {
     padding: 0;
     width: 14rem;
     transition-property: filter;
+}
 
-    picture, img {
-        height: 100%;
-        width: 100%;
-    }
+button.thumbnail picture, button.thumbnail img {
+    height: 100%;
+    width: 100%;
 }
 
 button.thumbnail:hover {filter: none;}
 
-button.thumbnail:active {
-    picture,img {border-radius: calc(var(--radius-large) - 0.25rem);}
-}
+button.thumbnail:active picture, button.thumbnail:active img {border-radius: calc(var(--radius-large) - 0.25rem);}
 
 main {
     display: grid;
@@ -271,15 +264,13 @@ button#clear {background-color: var(--red);}
 
 button#submit {background-color: var(--green);}
 
-button#clear:hover {
-    svg {fill: var(--red);}
-    p {color: var(--red);}
-}
+button#clear:hover svg {fill: var(--red);}
 
-button#submit:hover {
-    svg {fill: var(--green);}
-    p {color: var(--green);}
-}
+button#clear:hover span {color: var(--red);}
+
+button#submit:hover svg {fill: var(--green);}
+
+button#submit:hover span {color: var(--green);}
 
 /* content display section */
 
@@ -295,19 +286,18 @@ section.left {
     display: flex;
     flex-flow: column nowrap;
     gap: 1.5rem;
+}
 
-    picture, img {
-        height: 30.1875rem;
-        width: 40.25rem;
-    }
+section.left picture, section.left img {
+    height: 30.1875rem;
+    width: 40.25rem;
 }
 
 button#link {background-color: var(--blue);}
 
-button#link:hover {
-    svg {fill: var(--blue);}
-    p {color: var(--blue);}
-}
+button#link:hover svg {fill: var(--blue);}
+
+button#link:hover span {color: var(--blue);}
 
 section.right {
     border: 0.25rem solid var(--black);
@@ -333,29 +323,32 @@ section#help {
     gap: 1.5rem;
     margin: 0 auto;
     max-width: 80%;
+}
 
-    article, section {
-        align-content: flex-start;
-        display: flex;
-        flex-flow: column nowrap;
-        gap: 0.75rem;
-    }
+section#help article, section#help section {
+    align-content: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.75rem;
+}
 
-    section.social-btns {
-        display: flex;
-        flex-flow: row nowrap;
-        gap: 1rem;
-    }
+section#help section.social-btns {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    margin-top: 0.75rem;
 }
 
 button#email, button#github {background-color: var(--black);}
 
-button#email:hover, button#github:hover {svg {fill: var(--black);}}
+button#email:hover svg {fill: var(--black);}
+
+button#github:hover svg {fill: var(--black);}
 
 button#discord {background-color: var(--discord);}
 
-button#discord:hover {svg {fill: var(--discord);}}
+button#discord:hover svg {fill: var(--discord);}
 
 button#bluesky {background-color: var(--bluesky);}
 
-button#bluesky:hover {svg {fill: var(--bluesky);}}
+button#bluesky:hover svg {fill: var(--bluesky);}

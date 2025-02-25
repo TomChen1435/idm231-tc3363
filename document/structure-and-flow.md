@@ -5,12 +5,12 @@
 ### header#default
 
 - h1 (Which North American Rapid Transit System Should You Try Next?)
-- button#help
+- button#header-help
     - Click to go to the "section#help"
     - Click and change to "button#help-close"
 - button#help-close
     - Click to go to main
-    - Click and change to "button#close"
+    - Click and change to "button#header-help"
 
 ### header#operator
 
@@ -27,7 +27,7 @@
 ## main
 
 - section.input-box
-    - h2#prompt (Enter Your Date of Birth to Find out/Try to use the "MM/DD/YYYY" Format)
+    - h2#prompt (Enter Your Date of Birth to Find out/That was an invalid entry. Try again.)
     - div.main-btns
     - button#clear
         - Change the input to "MM/DD/YYYY"
