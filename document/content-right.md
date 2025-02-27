@@ -106,7 +106,7 @@ January 20th - February 18th
 
 The Twin Subway Lines in a Family of Light Rails
 
-Speaking of downgrading in transit projects, no one would have more authority than Los Angeles. Indeed, the A Line is the longest tram/light rail line in the world
+When it comes to downgrading in mass transit, no place would have more authority than Los Angeles. At one point in history, L.A.'s Pacific Electric Railway was the largest electrified inter-urban railway system in the world. Today, Metrolink, the commuter rail system of L.A., is entirely diesel-powered, while this second largest city of the U.S. continues to struggle against the deeply rooted car-centrism from past urban planning. Similarly issues also affect the local rapid transit network. The A Line may proudly hold the title of the longest light rail line in the world, but the sheer scale of L.A. means so much more than justifying the need for additional fully-grade-separated heavy-rail lines like the B and the D.
 
 ## Bay Area Rapid Transit
 
