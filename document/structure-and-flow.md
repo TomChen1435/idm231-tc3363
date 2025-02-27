@@ -24,13 +24,11 @@
         - Click to go to main
         - Click and change to "button#help"
 
-## main
+## main#main
 
 - section.input-box
     - h2#prompt (Enter Your Date of Birth to Find out/That was an invalid entry. Try again.)
     - div.main-btns
-    - button#clear
-        - Change the input to "MM/DD/YYYY"
     - input (MM/DD/YYYY)
     - button#submit (Find Your Train)
         - Click to change to the corresponding "section#content"
@@ -48,10 +46,6 @@
 - section (Site instructions)
 - section (Sources of information)
 - article (Why do I make this?)
-- section (Contact information)
-    - section.personal-info
-    - section.social-btns
-        - button.social
 
 ### section#content
 

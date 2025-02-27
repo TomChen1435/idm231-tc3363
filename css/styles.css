@@ -33,6 +33,8 @@
     transition-timing-function: ease-in;
 }
 
+html {margin: 0 auto;}
+
 .hide {display: none !important;}
 
 /* texts */
@@ -81,12 +83,12 @@ a, input, li, p {
     line-height: 140%;
 }
 
-a {transition-property: color;}
+a.hyperlink {transition-property: color;}
 
-a:default {color: var(--blue);}
-a:hover {color: var(--indigo);}
-a:active {color: var(--pink);}
-a:visited {color: var(--purple);}
+a.hyperlink:default {color: var(--blue);}
+a.hyperlink:hover {color: var(--indigo);}
+a.hyperlink:active {color: var(--pink);}
+a.hyperlink:visited {color: var(--purple);}
 
 span.btn {
     font-size: 1.5rem;
@@ -95,31 +97,44 @@ span.btn {
 
 /* buttons and input */
 
-button, input {
+a.btn, button, input {
     align-items: center;
-    border: none;
     border-radius: var(--radius-small);
     display: flex;
     gap: 0.5rem;
     height: var(--button-height);
     justify-content: center;
     padding: 0.5rem 0.75rem;
+}
+
+a.btn, button {
+    border: none;
+    text-decoration: none;
     transition-property: background-color;  
 }
 
-button svg {
+a.btn:hover, button:hover {background-color: var(--white) !important;}
+
+a.btn:active, button:active {border: 0.25rem solid var(--yellow) !important;}
+
+input {
+    border: 0.25rem solid var(--blue);
+    transition-property: border-color, border-width;
+}
+
+input:hover {border-color: var(--indigo);}
+
+input:focus {border-color: var(--pink);}
+
+a.btn svg, button svg {
     fill: var(--white);
     transition-property: fill;
 }
 
-button span {
+span {
     color: var(--white);
     transition-property: color;
 }
-
-button:hover {background-color: var(--white) !important;}
-
-button:active {border: 0.25rem solid var(--yellow) !important;}
 
 /* images */
 
@@ -136,7 +151,7 @@ main, section#content {height: 38.5rem;}
 
 header {
     height: 11.5rem;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 10;
 }
@@ -147,7 +162,7 @@ header h1 {color: var(--white);}
 
 header#default {background-color: var(--blue);}
 
-header#default button#header-help {
+header#default button#header-help, header#default button#help-close {
     bottom: 2rem;
     position: absolute;
     right: 2rem;
@@ -158,6 +173,12 @@ button#header-help {background-color: var(--orange);}
 button#header-help:hover svg {fill: var(--orange);}
 
 button#header-help:hover span {color: var(--orange);}
+
+button#help-close {background-color: var(--red);}
+
+button#help-close:hover svg {fill: var(--red);}
+
+button#help-close:hover span {color: var(--red);}
 
 /* header for operator information */
 
@@ -170,6 +191,12 @@ div.operator-info {
     gap: 1.5rem;
 }
 
+img#logo {
+    border-radius: 0;
+    height: 7.5rem;
+    width: auto;
+}
+
 div.header-btns {
     align-items: flex-end;
     bottom: 2rem;
@@ -180,11 +207,11 @@ div.header-btns {
     right: 2rem;
 }
 
-button#location {background-color: var(--orange);}
+a.btn#location {background-color: var(--orange);}
 
-button#location:hover svg {fill: var(--orange);}
+a.btn#location:hover svg {fill: var(--orange);}
 
-button#location:hover span {color: var(--orange);}
+a.btn#location:hover span {color: var(--orange);}
 
 button#close {background-color: var(--red);}
 
@@ -208,13 +235,12 @@ button.thumbnail {
 }
 
 button.thumbnail picture, button.thumbnail img {
+    border-radius: calc(var(--radius-large) - 0.25rem);
     height: 100%;
     width: 100%;
 }
 
 button.thumbnail:hover {filter: none;}
-
-button.thumbnail:active picture, button.thumbnail:active img {border-radius: calc(var(--radius-large) - 0.25rem);}
 
 main {
     display: grid;
@@ -245,7 +271,7 @@ main {
 
 section.input-box {
     background-color: var(--yellow);
-    border-radius: var(--radius-large);
+    border-radius: calc(var(--radius-large) - 0.25rem);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -260,17 +286,15 @@ div.main-btns {
     gap: 1rem;
 }
 
-button#clear {background-color: var(--red);}
+h2#prompt.red {color: var(--red);}
 
 button#submit {background-color: var(--green);}
-
-button#clear:hover svg {fill: var(--red);}
-
-button#clear:hover span {color: var(--red);}
 
 button#submit:hover svg {fill: var(--green);}
 
 button#submit:hover span {color: var(--green);}
+
+button#submit:active {border-color: var(--pink) !important;}
 
 /* content display section */
 
@@ -293,11 +317,11 @@ section.left picture, section.left img {
     width: 40.25rem;
 }
 
-button#link {background-color: var(--blue);}
+a.btn#link {background-color: var(--blue);}
 
-button#link:hover svg {fill: var(--blue);}
+a.btn#link:hover svg {fill: var(--blue);}
 
-button#link:hover span {color: var(--blue);}
+a.btn#link:hover span {color: var(--blue);}
 
 section.right {
     border: 0.25rem solid var(--black);
@@ -331,24 +355,3 @@ section#help article, section#help section {
     flex-flow: column nowrap;
     gap: 0.75rem;
 }
-
-section#help section.social-btns {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 1rem;
-    margin-top: 0.75rem;
-}
-
-button#email, button#github {background-color: var(--black);}
-
-button#email:hover svg {fill: var(--black);}
-
-button#github:hover svg {fill: var(--black);}
-
-button#discord {background-color: var(--discord);}
-
-button#discord:hover svg {fill: var(--discord);}
-
-button#bluesky {background-color: var(--bluesky);}
-
-button#bluesky:hover svg {fill: var(--bluesky);}

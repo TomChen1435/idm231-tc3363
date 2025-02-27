@@ -46,7 +46,7 @@ Leo
 
 July 23rd - August 22nd
 
-Stop Calling Me a "Subway"
+I Am Not a "Subway", So Stop Calling Me by That Name
 
 ## SEPTA Metro
 
@@ -105,6 +105,8 @@ Aquarius
 January 20th - February 18th
 
 The Twin Subway Lines in a Family of Light Rails
+
+Speaking of downgrading in transit projects, no one would have more authority than Los Angeles. Indeed, the A Line is the longest tram/light rail line in the world
 
 ## Bay Area Rapid Transit
 

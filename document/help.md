@@ -9,6 +9,18 @@
 
 - Source of all images: Wikipedia
 - Source of audio: 
+    - Chicago "L": [WindyCity Transit](https://www.youtube.com/watch?v=bVgdTxfzW54)
+    - The "T": [Nick Dalton](https://www.youtube.com/watch?v=j8al381dNb0)
+    - NYC Subway: [Ccomics88](https://freesound.org/people/Ccomics88/sounds/434085/)
+    - PATH: [RailfanCFH](https://www.youtube.com/watch?v=Tdxj4VPF5rY)
+    - Staten Island Railway: [TuesdayOra](https://www.youtube.com/watch?v=-m3kzQZI9CE)
+    - SEPTA Metro: [Roads, Rails & Runways of WNY](https://www.youtube.com/watch?v=seUd-rgOKF0)
+    - PATCO: [RustBeltTransit](https://www.youtube.com/watch?v=q3tYIAxDE4k)
+    - Washington Metro: [Dc4000Wmata](https://www.youtube.com/watch?v=TO63qtY-xuY)
+    - MARTA: [Raised Letter](https://www.youtube.com/shorts/GxxkBYIbZLc)
+    - Miami Metrorail: [Raised Letter](https://www.youtube.com/shorts/S1b9y-hgU3I)
+    - LA Metro: [Metro Fan's Productions](https://www.youtube.com/watch?v=6jzoomhMgxI&t=58s)
+    - BART: [ATP Transit](https://www.youtube.com/watch?v=esLxOKDHnIY)
 
 ## Why do I make this? 
 
@@ -35,17 +47,3 @@ As of now, I am sure you get the idea behind this project: the United States sto
 - So much more potential and possibilities
 
 [Vivan niaj transitoj!](https://lernu.net)
-
-## Contact information
-
-Tom Chen [(He/Him/His)](https://pronouns.org)
-BS User Experience and Interaction Design [(UXID)](https://drexel.edu/westphal/academics/undergraduate/user-experience/) in progress 
-Antoinette Westphal College of Media Arts and Design [(CoMAD)](https://drexel.edu/westphal)
-[Drexel University](https://drexel.edu)
-[Philadelphia](https://www.visitphilly.com), [Pennsylvania](https://www.visitpa.com), [United States](https://www.visittheusa.com)
-
-- [Email](tomchen0714@icloud.com)
-- [Discord](https://discordapp.com/users/tomchen1581)
-- [Bluesky](https://bsky.app/profile/tomchen1581.bsky.social)
-- [Flickr](https://www.flickr.com/photos/tomchen1581)
-- [GitHub](https://github.com/TomChen1435)
