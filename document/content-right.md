@@ -20,7 +20,9 @@ Taurus
 
 April 21st - May 20th
 
-Reuse, Reduce, and Recycle
+Between a Train and a Trolley and the Other Way Around
+
+The North Station of Boston is infamous for being separated from the U.S.'s continuous passenger rail network and creating a hassle for those who like to have a one-seat ride through Boston. The "T" station attached to the same complex, however, deserves more praise for adopting a user-friendly design: cross-platform transfer. The method is quite common around the world, but North Station's case is unique as it's a unidirectional one between the Orange Line's high-floor trains and the Green Lines's low-floor trolleys. A well-designed cross-platform transfer is a perfect balance for interchanging, eliminating the efforts for passengers to navigate through the station while transfering and the operators to coordinate interlining.
 
 ## New York City Subway
 
@@ -30,7 +32,7 @@ May 21st - June 20th
 
 Local or Express?
 
-As cities expand, 
+Cities expand over time, and so does their transit. Express services become very handy when transporting people to farther places more quickly. New York was the first city to fully integrate express and local services into a unified urban metro system, aligning with its urban plannings for Manhattan's long and narrow shape, as well as the city's eastward expansion into Long Island at the turn of the 20th century. Unlike the skip-stop service patterns found elsewhere, the Subway has dedicated express tracks for trains to rush through local stations. A typical local station in New York consists of two side platforms serving the local tracks on the outside, while an express station usually has two island platforms, each serving all trains in the same direction.
 
 ## Port-Authority Trans-Hudson
 
@@ -38,7 +40,9 @@ Cancer
 
 June 21st - July 22nd
 
-The Forgotten Railroad of New York
+The Forgotten Railroad of New York and Its Crazy Policy
+
+Among all rail transit in greater New York, PATH has always been the one with the least public exposure. Many New Yorkers don't even know about its existence unless they are traveling across the Hudson. The Port Authority of New York and New Jersey, PATH's owner and operator, banishes non-commercial photography across the entire system. Despite not being strictly enforced at all times, this rule creates an obstacle for the public to familiarize themselves with PATH, if not violating the First Amendment altogether. These things also take place in other urban rail infrastructures for "national security." Since when has the war against terrorism turned into the war against artistic creation or even the freedom of the press?
 
 ## Staten Island Railway
 
@@ -47,6 +51,8 @@ Leo
 July 23rd - August 22nd
 
 I Am Not a "Subway", So Stop Calling Me by That Name
+
+The Staten Island Railway has a long-lasting tendency to be misrecognized as a part of the New York City Subway despite its distinctive branding. Indeed, the two systems share countless similarities. They use the same rolling stock, accept the same payment methods, and serve the boroughs of the same city. But, they are very different, too. The SIR does not require a fare if passengers are not traveling to or from the two northernmost stations. It is also completely separated compared to the continuous subway system. Most importantly, the SIR runs its services with a notorious 30-minute headway during the off-peak hours, while the subway can max out with a train coming every 90 seconds at peak on the Lexington Avenue Line.
 
 ## SEPTA Metro
 
