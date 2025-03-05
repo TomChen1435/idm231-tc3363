@@ -1,26 +1,15 @@
-## Site instructions
+## Help and instructions
 
+- Hover over the thumbnail images to show the system's name
 - Enter your date of birth or click one of the pictures to find the public transit system you should discover next
-- Click the button below the photograph to visit the operator's website
-- Click the location to find more about what the cities have to offer
-- Click "Close" to return to the homepage
+- Click the "Visit the Parent Agency's Website" button below the photograph to visit the website of the agency that operates the system
+- Click the location button at the top right corner to find more about what the cities have to offer
+- Click the close button to return to the homepage
 
 ## Sources of information
 
 - Source of all images: Wikipedia
 - Source of audio: 
-    - Chicago "L": [WindyCity Transit](https://www.youtube.com/watch?v=bVgdTxfzW54)
-    - The "T": [Nick Dalton](https://www.youtube.com/watch?v=j8al381dNb0)
-    - NYC Subway: [Ccomics88](https://freesound.org/people/Ccomics88/sounds/434085/)
-    - PATH: [RailfanCFH](https://www.youtube.com/watch?v=Tdxj4VPF5rY)
-    - Staten Island Railway: [TuesdayOra](https://www.youtube.com/watch?v=-m3kzQZI9CE)
-    - SEPTA Metro: [Roads, Rails & Runways of WNY](https://www.youtube.com/watch?v=seUd-rgOKF0)
-    - PATCO: [RustBeltTransit](https://www.youtube.com/watch?v=q3tYIAxDE4k)
-    - Washington Metro: [Dc4000Wmata](https://www.youtube.com/watch?v=TO63qtY-xuY)
-    - MARTA: [Raised Letter](https://www.youtube.com/shorts/GxxkBYIbZLc)
-    - Miami Metrorail: [Raised Letter](https://www.youtube.com/shorts/S1b9y-hgU3I)
-    - LA Metro: [Metro Fan's Productions](https://www.youtube.com/watch?v=6jzoomhMgxI&t=58s)
-    - BART: [ATP Transit](https://www.youtube.com/watch?v=esLxOKDHnIY)
 
 ## Why do I make this? 
 

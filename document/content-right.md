@@ -14,7 +14,7 @@ The Power of the Loop
 
 Chicago's city center is famously named as "The Loop" after a transit infrastructure surrounding the blocks over the streets. This is another proof that the United States has never always been as car-centric as we know today - our public transit also had their days of prime. The Loop was a smart and efficient method before the through-running idea came along. It allows all trains to easily turn around and access more right-of-ways without building multiple termini or even dedicated turning loops, saving the city precious land area to develop more densely. When a train loops around the city center, it evenly distributes passengers to different sections of the area, avoiding over-crowding a small number of nodes.
 
-## MBTA Subway "The T"
+## MBTA Subway ("The T")
 
 Taurus
 
