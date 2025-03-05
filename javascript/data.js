@@ -2,7 +2,7 @@
 
 const cOperator = [
     ['chicago-l', 'Chicago "L"', 'https://www.transitchicago.com'],
-    ['mbta-t', 'MBTA Subway<br>The "T"', 'https://www.mbta.com'],
+    ['mbta-t', 'MBTA Subway (The "T")', 'https://www.mbta.com'],
     ['nyc-subway', 'New York City Subway', 'https://www.mta.info'],
     ['path', 'Port-Authority Trans-Hudson', 'https://www.panynj.gov/port-authority/en/index.html'],
     ['sir', 'Staten Island Railway', 'https://www.mta.info'],
@@ -46,11 +46,11 @@ const writing_sir = ['I Am Not a "Subway", So Stop Calling Me by That Name', 'Th
 
 const writing_septa_metro = ['Trains and Trolleys,<br>One Tunnel for All', 'When thinking of a quad-track underground tunnel for rapid transit in Philly, many would picture the section of the Broad Street Subway in North Philadelphia, where express trains blast through local stations at speed. To the west of the City Hall, the Market Street Tunnel achieves the same goal of level separation with a different approach. Despite all four tracks using the same 1,581mm Pennsylvanian trolley gauge, the local tracks are used by the Subway-Surface Trolleys, powered by overhead catenaries, while the third-rail-powered L goes express between City Hall and 30th Street. Together, the combination allows both faster trips in the urban core and more variety for destinations towards the southwest.'];
 
-const writing_patco = ['', ''];
+const writing_patco = ['The Force of Automation', 'PATCO, short for the Port Authority Transit Corporation, is a subsidiary of the Delaware River Port Authority (DRPA). Opened in 1969, the PATCO Speedline inherited the Ben Franklin Bridge right-of-way from the Bridge Line Trolleys and became one of the world\'s earliest fully automated rapid transit systems, following London\'s Victoria Line. PATCO was one of the first U.S. systems to integrate rapid transit with commuter rail operations, serving as a model for future projects. Its automation allowed it to operate with an efficiency and flexibility that most U.S. transit agencies could only aspire to at the time. Within a year of opening, PATCO introduced 24-hour service - a feature still rare among any transit systems today.'];
 
-const writing_dc_metro = ['', ''];
+const writing_dc_metro = ['Brutalism Deep Underground', 'The existence of Metro proves one thing: the United States is more than capable of building and maintaining satisfying rapid transit systems if there is enough funding and public investment. Being a truly world-class system, Metro is famous for its deep underground stations and the iconic "waffle" structure. Wheaton on the Red Line holds the title of the deepest station in the entire system at approximately 46 meters below ground. It is also the home to the longest single escalator in the Western Hemisphere, stretching 70 meters with a ride time of about 3 minutes. Its "waffle" structure, designed by Harry Weese and featuring coffered concrete walls, was influenced by brutalist architecture and helped make the Metro\'s underground stations some of the most visually distinctive ones in the world.'];
 
-const writing_marta = ['', ''];
+const writing_marta = ['The Metro to Become the Best Regional Rail in the U.S.', 'Atlanta has been one of the most severely affected victims of car-centrism in the past few decades. Those 10+ lane highways not only tore the city apart but led this powerhouse of the south to have one of the most horrifying traffic conditions in the country. Unsurprisingly, the sprawling nature of Atlanta caused the local authority to consider building a commuter rail system while completely forgetting that MARTA was originally designed to handle such urban layouts. The real question here should be: why force yourself to get better at building a slow and infrequent traditional commuter rail when your city already has such a distinctive mode of transit that is capable of balancing speed, frequency, and capacity?'];
 
 const writing_miami_metro = ['Transfer or Interline?', 'Like many metro systems in the U.S., Miami Metro advertises its services as if they were separate lines. Metrorail\'s system is a singular line with a one-stop branch. Usually, all trains interline to the south of Earlington Heights before the Orange Line branches off. On weekends, the Orange Line is replaced with a shuttle between the airport and the main line. The weekday strategy is common in the U.S. but not so much anywhere else, as most operators eventually realize how many disruptions can the interlining issues cause. Despite that, in this ever-ongoing debate of transfer vs. interline, the latter will always have some dedicated defenders for the benefits of more destinations with a single-seat ride.'];
 

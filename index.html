@@ -72,83 +72,96 @@
                 <source type="image/webp" srcset="media/images-optimized/chicago-l.webp">
                 <img src="media/images-optimized/chicago-l.jpg" alt='Chicago "L"'>
             </picture>
+            <div class="filler"><h2>Chicago "L"</h2></div>
         </button>
         <button id="mbta-t" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/mbta-t.webp">
-                <img src="media/images-optimized/mbta-t.jpg" alt='MBTA Subway - The "T"'>
+                <img src="media/images-optimized/mbta-t.jpg" alt='MBTA Subway (The "T")'>
             </picture>
+            <div class="filler"><h2>The "T"</h2></div>
         </button>
         <button id="nyc-subway" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/nyc-subway.webp">
                 <img src="media/images-optimized/nyc-subway.jpg" alt="New York City Subway">
             </picture>
+            <div class="filler"><h2>NYC<br>Subway</h2></div>
         </button>
         <button id="path" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/path.webp">
                 <img src="media/images-optimized/path.jpg" alt="Port-Authority Trans-Hudson">
             </picture>
+            <div class="filler"><h2>PATH</h2></div>
         </button>
         <button id="sir" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/sir.webp">
                 <img src="media/images-optimized/sir.jpg" alt="Staten Island Railway">
             </picture>
+            <div class="filler"><h2>Staten<br>Island<br>Railway</h2></div>
         </button>
         <button id="septa-metro" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/septa-metro.webp">
                 <img src="media/images-optimized/septa-metro.jpg" alt="SEPTA Metro">
             </picture>
+            <div class="filler"><h2>SEPTA<br>Metro</h2></div>
         </button>
         <button id="patco" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/patco.webp">
                 <img src="media/images-optimized/patco.jpg" alt="PATCO Speedline">
             </picture>
+            <div class="filler"><h2>PATCO<br>Speedline</h2></div>
         </button>
         <button id="dc-metro" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/dc-metro.webp">
                 <img src="media/images-optimized/dc-metro.jpg" alt="Washington Metro">
             </picture>
+            <div class="filler"><h2>Washington<br>Metro</h2></div>
         </button>
         <button id="marta" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/marta.webp">
                 <img src="media/images-optimized/marta.jpg" alt="MARTA">
             </picture>
+            <div class="filler"><h2>MARTA<br>Atlanta</h2></div>
         </button>
         <button id="miami-metro" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/miami-metro.webp">
                 <img src="media/images-optimized/miami-metro.jpg" alt="Miami Metrorail">
             </picture>
+            <div class="filler"><h2>Miami<br>Metrorail</h2></div>
         </button>
         <button id="la-metro" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/la-metro.webp">
                 <img src="media/images-optimized/la-metro.jpg" alt="Los Angeles Metro Rail">
             </picture>
+            <div class="filler"><h2>Los Angeles<br>Metro Rail</h2></div>
         </button>
         <button id="bart" class="thumbnail">
             <picture>
                 <source type="image/webp" srcset="media/images-optimized/bart.webp">
                 <img src="media/images-optimized/bart.jpg" alt="Bay Area Rapid Transit">
             </picture>
+            <div class="filler"><h2>BART</h2></div>
         </button>
     </main>
 
     <section id="help" class="hide">
         <section>
-            <h2>Site Instruction</h2>
+            <h2>Help and Instructions</h2>
             <ul>
+                <li>Hover over the thumbnail images to show the system's name</li>
                 <li>Enter your date of birth or click one of the pictures to find the public transit system you should discover next</li>
-                <li>Click the button to visit their website</li>
-                <li>Click the location to find more about what the cities have to offer</li>
-                <li>Click "Close" to return to the homepage</li>
+                <li>Click the "Visit the Parent Agency's Website" button below the photograph to visit the website of the agency that operates the system</li>
+                <li>Click the location button at the top right corner to find more about what the cities have to offer</li>
+                <li>Click the close button to return to the homepage</li>
             </ul>
         </section>
         <section>
@@ -171,6 +184,7 @@
                         <li>BART: <a class="hyperlink" href="https://www.youtube.com/watch?v=esLxOKDHnIY">ATP Transit</a></li>
                     </ul>
                 </li>
+                <li>Kudos to Reece for inspiration: <a class="hyperlink" href="https://www.youtube.com/watch?v=DLRmo5ExoFY">How to Fix Atlanta's Broken Rail System</a></li>
             </ul>
         </section>
         <article>
@@ -214,7 +228,7 @@
                     </clipPath>
                     </defs>
                 </svg>
-                <span class="btn">Visit the Operator's Website</span>
+                <span class="btn">Visit the Parent Agency's Website</span>
             </a>
         </section>
         <section class="right">
@@ -229,9 +243,55 @@
         </section>
     </section>
 
-    <audio id="sfx" src="media/sfx/default.mp3">
-        It appears that you are using Safari Mobile, Opera Mini, or something even less popular. Your browser does not support HTML5 audio. Please try something different.
-    </audio>
+    <section id="sound-effects" class="hide">
+        <audio id="sfx-chicago-l" src="media/sfx/chicago-l.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-mbta-t" src="media/sfx/mbta-t.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-nyc-subway" src="media/sfx/nyc-subway.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-path" src="media/sfx/path.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-sir" src="media/sfx/sir.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-septa-metro" src="media/sfx/septa-metro.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-patco" src="media/sfx/patco.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-dc-metro" src="media/sfx/dc-metro,mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-marta" src="media/sfx/marta.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-miami-metro" src="media/sfx/miami-metro.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-la-metro" src="media/sfx/la-metro.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    
+        <audio id="sfx-bart" src="media/sfx/bart.mp3">
+            Your browser does not support HTML5 audio. Please try to use a different browser
+        </audio>
+    </section>
 
     <script src="javascript/zodiac.js"></script>
     <script src="javascript/data.js"></script>

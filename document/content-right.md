@@ -72,7 +72,7 @@ September 23rd - October 22nd
 
 The Force of Automation
 
-The PATCO Speedline is the second automated train service in the world (the first being the Victoria Line of London Underground).
+PATCO, short for the Port Authority Transit Corporation, is a subsidiary of the Delaware River Port Authority (DRPA). Opened in 1969, the PATCO Speedline inherited the Ben Franklin Bridge right-of-way from the Bridge Line Trolleys and became one of the world’s earliest fully automated rapid transit systems, following London’s Victoria Line. PATCO was one of the first U.S. systems to integrate rapid transit with commuter rail operations, serving as a model for future projects. Its automation allowed it to operate with an efficiency and flexibility that most U.S. transit agencies could only aspire to at the time. Within a year of opening, PATCO introduced 24-hour service — a feature still rare among any transit systems today.
 
 ## Washington Metro
 
@@ -80,7 +80,9 @@ Scorpio
 
 October 23rd - November 21st
 
-Brutalism Deep Under the Ground
+Brutalism Deep Underground
+
+The existence of Metro proves one thing: the United States is more than capable of building and maintaining satisfying rapid transit systems if there is enough funding and public investment. Being a truly world-class system, Metro is famous for its deep underground stations and the iconic "waffle" structure. Wheaton on the Red Line holds the title of the deepest station in the entire system at approximately 46 meters below ground. It is also the home to the longest single escalator in the Western Hemisphere, stretching 70 meters with a ride time of about 3 minutes. Its "waffle" structure, designed by Harry Weese and featuring coffered concrete walls, was influenced by brutalist architecture and helped make the Metro's underground stations some of the most visually distinctive ones in the world.
 
 ## MARTA Rail
 
@@ -88,9 +90,9 @@ Sagittarius
 
 Noveber 22nd - December 21st
 
-The Metro to Become the Best Regional in the U.S.
+The Metro to Become the Best Regional Rail in the U.S.
 
-
+Atlanta has been one of the most severely affected victims of car-centrism in the past few decades. Those 10+ lane highways not only tore the city apart but led this powerhouse of the south to have one of the most horrifying traffic conditions in the country. Unsurprisingly, the sprawling nature of Atlanta caused the local authority to consider building a commuter rail system while completely forgetting that MARTA was originally designed to handle such urban layouts. The real question here should be: why force yourself to get better at building a slow and infrequent traditional commuter rail when your city already has such a distinctive mode of transit that is capable of balancing speed, frequency, and capacity?
 
 Kudos to Reece for inspiration [How to Fix Atlanta's Broken Rail System](https://www.youtube.com/watch?v=DLRmo5ExoFY)
 

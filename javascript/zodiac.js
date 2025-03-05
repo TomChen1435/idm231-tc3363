@@ -1,5 +1,3 @@
-console.log('The zodiac system is successfully imported.')
-
 const arrayZodiac = [
     ['Aries', 'March 21st - April 20th'],
     ['Taurus', 'April 21st - May 20th'],

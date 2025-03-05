@@ -1,7 +1,7 @@
 ## Site instructions
 
 - Enter your date of birth or click one of the pictures to find the public transit system you should discover next
-- Click the button to visit their website
+- Click the button below the photograph to visit the operator's website
 - Click the location to find more about what the cities have to offer
 - Click "Close" to return to the homepage
 

@@ -28,9 +28,9 @@ const mainSection= document.getElementById('main');
 const helpSection= document.getElementById('help');
 const contentSection= document.getElementById('content');
 
-const promptText = document.getElementById('prompt');
+const allAudios = document.querySelectorAll('audio');
 
-const audioFile = document.getElementById('sfx');
+const promptText = document.getElementById('prompt');
 
 const operatorsLogo = document.getElementById('logo');
 const operatorsNameText = document.getElementById('operators-name');
@@ -67,7 +67,7 @@ function infoAlteration(zIndex) {
     imageLargePhoto.src = 'media/images-optimized/' + cOperator[zIndex][0] + '.jpg';
     linkButton.href = cOperator[zIndex][2];
     
-    zodiacSignText.innerHTML = 'Astrological Sign: ' + arrayZodiac[zIndex][0];
+    zodiacSignText.innerHTML = cOperator[zIndex][1];
     durationText.innerHTML = arrayZodiac[zIndex][1];
     titleText.innerHTML = cWritings[zIndex][0];
     descriptionText.innerHTML = cWritings[zIndex][1];
@@ -110,10 +110,12 @@ function displaySections(dIndex) {
 // Function to play audios
 
 function playAudio(zIndex) {
-    audioFile.src = 'media/sfx/' + cOperator[zIndex][0] + '.mp3';
-    audioFile.pause();
-    audioFile.currentTime = 0;
-    audioFile.play();
+    allAudios.forEach(eachAudio => {
+        eachAudio.pause();
+        eachAudio.currentTime = 0;
+    })
+    document.getElementById('sfx-' + cOperator[zIndex][0]).play();
+    console.log('sfx-' + cOperator[zIndex][0]);
 }
 
 // Register clicks on thumbnail images
