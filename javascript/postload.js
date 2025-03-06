@@ -114,8 +114,9 @@ function playAudio(zIndex) {
         eachAudio.pause();
         eachAudio.currentTime = 0;
     })
-    document.getElementById('sfx-' + cOperator[zIndex][0]).play();
-    console.log('sfx-' + cOperator[zIndex][0]);
+    const currentAudio = document.getElementById('sfx-' + cOperator[zIndex][0]);
+    currentAudio.play();
+    closeButton.addEventListener('click', () => {currentAudio.pause();});
 }
 
 // Register clicks on thumbnail images

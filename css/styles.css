@@ -3,7 +3,8 @@
 
     --black: #000;
     --white: #fff;
-    --gray: rgb(142,142,147);
+    --gray1: rgb(142,142,147);
+    --gray5: rgb(229,229,234);
     --red: rgb(255,59,48);
     --orange: rgb(255,149,0);
     --yellow: rgb(255,204,0);
@@ -54,24 +55,6 @@ h1, h2, h3, a, input, li, p {
     text-wrap: pretty;
 }
 
-h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    line-height: 125%;
-}
-
-h2 {
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-ul {margin: 0;}
-
 a, input, li, p {
     font-size: 1.125rem;
     font-weight: 400;
@@ -86,9 +69,29 @@ a.hyperlink:active {color: var(--pink);}
 a.hyperlink:visited {color: var(--purple);}
 
 span.btn {
+    color: var(--white);
     font-size: 1.5rem;
     font-weight: 500;
+    transition-property: color;
 }
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+h2, span.filler {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+ul {margin: 0;}
 
 /* buttons and input */
 
@@ -119,16 +122,11 @@ input {
 
 input:hover {border-color: var(--blue);}
 
-input:focus {border-color: vaar ;}
+input:focus {border-color: var(--orange);}
 
 a.btn svg, button svg {
     fill: var(--white);
     transition-property: fill;
-}
-
-span {
-    color: var(--white);
-    transition-property: color;
 }
 
 /* images */
@@ -152,6 +150,8 @@ header {
 }
 
 header h1 {color: var(--white);}
+
+main {background-color: var(--gray5);}
 
 /* default header */
 
@@ -218,7 +218,7 @@ button#close:hover span {color: var(--red);}
 
 /* thumbnails on homepage */
 
-button.thumbnail, button.thumbnail div.filler{
+button.thumbnail, button.thumbnail span.filler {
     border-radius: var(--radius-large);
     height: 10.5rem;
     width: 14rem;
@@ -236,32 +236,29 @@ button.thumbnail picture, button.thumbnail img {
     transition-property: border-radius;
 }
 
-button.thumbnail:hover picture, button.thumbnail:hover img, button.thumbnail:active picture, button.thumbnail:active img {border-radius: calc(var(--radius-large) - 0.25rem);}
+button.thumbnail:active picture, button.thumbnail:active img {border-radius: calc(var(--radius-large) - 0.25rem);}
 
-button.thumbnail div.filler {
+button.thumbnail span.filler {
     align-items: flex-end;
+    color: var(--white);
     justify-content: flex-start;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
     flex-flow: row nowrap;
+    opacity: 0;
     padding: var(--radius-small);
     position: absolute;
-    transition-property: background-color;
+    text-align: left;
+    transition-property: background-color, opacity;
     z-index: 10;
 }
 
-button.thumbnail div.filler h2 {
-    color: var(--white);
-    opacity: 0;
-    text-align: left;
-    transition-property: opacity;
+button.thumbnail:hover span.filler {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 100%;
 }
 
-button.thumbnail:hover div.filler {background-color: rgba(0, 0, 0, 0.5);}
-
-button.thumbnail:hover div.filler h2 {opacity: 100%;}
-
-button.thumbnail:active div.filler {border:0.25rem solid var(--orange);}
+button.thumbnail:active span.filler {border: 0.25rem solid var(--orange);}
 
 main {
     display: grid;
