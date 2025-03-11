@@ -1,8 +1,6 @@
 :root {
     --font: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
-    --black: #000;
-    --white: #fff;
     --gray1: rgb(142,142,147);
     --gray5: rgb(229,229,234);
     --red: rgb(255,59,48);
@@ -69,7 +67,7 @@ a.hyperlink:active {color: var(--pink);}
 a.hyperlink:visited {color: var(--purple);}
 
 span.btn {
-    color: var(--white);
+    color: white;
     font-size: 1.5rem;
     font-weight: 500;
     transition-property: color;
@@ -111,12 +109,12 @@ a, button, input {cursor: pointer;}
 
 a.btn, button {transition-property: background-color;}
 
-a.btn:hover, button:hover {background-color: var(--white) !important;}
+a.btn:hover, button:hover {background-color: white !important;}
 
 a.btn:active, button:active {border: 0.25rem solid var(--orange) !important;}
 
 input {
-    border: 0.25rem solid var(--black);
+    border: 0.25rem solid black;
     transition-property: border;
 }
 
@@ -125,7 +123,7 @@ input:hover {border-color: var(--blue);}
 input:focus {border-color: var(--orange);}
 
 a.btn svg, button svg {
-    fill: var(--white);
+    fill: white;
     transition-property: fill;
 }
 
@@ -140,7 +138,10 @@ header, main, section#help, section#content {
     width: 100%;
 }
 
-main, section#content {height: 38.5rem;}
+main, section#content {
+    background-color: var(--gray5);
+    height: 38.5rem;
+}
 
 header {
     height: 11.5rem;
@@ -149,7 +150,7 @@ header {
     z-index: 10;
 }
 
-header h1 {color: var(--white);}
+header h1 {color: white;}
 
 main {background-color: var(--gray5);}
 
@@ -240,7 +241,7 @@ button.thumbnail:active picture, button.thumbnail:active img {border-radius: cal
 
 button.thumbnail span.filler {
     align-items: flex-end;
-    color: var(--white);
+    color: white;
     justify-content: flex-start;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -340,7 +341,8 @@ a.btn#link:hover svg {fill: var(--blue);}
 a.btn#link:hover span {color: var(--blue);}
 
 section.right {
-    border: 0.25rem solid var(--black);
+    background-color: white;
+    border: 0.25rem solid black;
     border-radius: var(--radius-large);
     display: flex;
     flex-flow: column nowrap;
